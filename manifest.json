@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "CiteLoom",
+  "version": "0.1.32",
+  "description": "Trace citation threads among papers in your Zotero collections.",
+  "homepage_url": "https://example.com/citation-view-mvp/",
+  "applications": {
+    "zotero": {
+      "id": "citation-view-mvp@example.org",
+      "update_url": "https://example.com/citation-view-mvp/updates.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}

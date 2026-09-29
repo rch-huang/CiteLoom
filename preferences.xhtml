@@ -1,0 +1,16 @@
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:html="http://www.w3.org/1999/xhtml">
+  <groupbox>
+    <label><html:h2>CiteLoom</html:h2></label>
+    <html:label for="citation-view-arrow-color">Arrow color</html:label>
+    <html:input id="citation-view-arrow-color" type="color"
+      preference="extensions.citationViewMVP.arrowColor"/>
+    <html:label for="citation-view-min-citations">Minimum citing papers to create a cluster</html:label>
+    <html:input id="citation-view-min-citations" type="number" min="1" step="1"
+      preference="extensions.citationViewMVP.minCitations"/>
+    <checkbox id="citation-view-include-subcollections"
+      label="Include papers from all levels of subcollections"
+      preference="extensions.citationViewMVP.includeSubcollections"/>
+    <description>Settings apply to the current CiteLoom view automatically. PDF citation data is shared across collections.</description>
+  </groupbox>
+</vbox>
